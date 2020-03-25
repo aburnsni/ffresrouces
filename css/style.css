@@ -7832,3 +7832,6 @@ article.node-resource .row.taxonomy {
 .view-frontpage .views-row:hover {
   background-color: #ecf0f1;
 }
+#block-search-form {
+  margin-top: 1.5em;
+}
