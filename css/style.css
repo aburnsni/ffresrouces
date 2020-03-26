@@ -7819,7 +7819,7 @@ article.node-resource .row.taxonomy {
   margin-bottom: .7em;
 }
 .view-frontpage .views-row {
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid #95a5a6;
   padding-left: 1em;
   padding-right: 1em;
 }
@@ -7834,4 +7834,13 @@ article.node-resource .row.taxonomy {
 }
 #block-search-form {
   margin-top: 1.5em;
+}
+.page-node .node-resource .comment-wrapper {
+  border-top: 1px solid #95a5a6;
+}
+.page-node .node-resource .comment {
+  border-bottom: 1px solid #ecf0f1;
+}
+.page-node .node-resource .comment .new {
+  display: none;
 }

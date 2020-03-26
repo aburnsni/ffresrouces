@@ -29,7 +29,7 @@ article.node-resource {
 
 .view-frontpage {
   .views-row {
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid @gray;
     padding-left: 1em;
     padding-right: 1em;
   }
@@ -46,4 +46,18 @@ article.node-resource {
 
 #block-search-form {
   margin-top: 1.5em;
+}
+
+.page-node {
+  .node-resource {
+    .comment-wrapper {
+      border-top: 1px solid @gray;
+    }
+    .comment {
+      border-bottom: 1px solid @gray-lighter;
+      .new {
+        display:none;
+      }
+    }
+  }  
 }
