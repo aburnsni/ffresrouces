@@ -1,4 +1,5 @@
 <article id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
+  <?php // dpm($node); ?>
   <?php if ((!$page && !empty($title)) || !empty($title_prefix) || !empty($title_suffix) || $display_submitted): ?>
   <header>
     <?php print render($title_prefix); ?>
@@ -17,12 +18,18 @@
     ?>
     <div class="row link">
       <div class="col-sm-12">
-        <?php // print("<pre>"); print_r($content); print("</pre>"); ?>
         <a href='<?php print $node->field_links['und'][0]['url']; ?>' title='<?php print $node->field_links['und'][0]['title']; ?>'>
           <?php print $node->field_links['und'][0]['url']; ?>
         </a>
       </div>
     </div>
+    <?php if ($node->body) { ?>
+      <div class="row body">
+        <div class="col-sm-12">
+          <?php print render($content['body']); ?>
+        </div>
+      </div>
+    <?php } ?>
     <div class="row taxonomy">
       <div class="col-sm-6">
         <?php print render($content['field_subject']); ?>

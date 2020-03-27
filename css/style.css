@@ -7815,6 +7815,17 @@ article.node-resource .row.link {
     font-size: 1.5em;
   }
 }
+article.node-resource .row.body {
+  margin-bottom: .7em;
+}
+@media only screen and (min-width: 576px) {
+  article.node-resource .row.body {
+    font-size: 1.2em;
+    margin-bottom: .6em;
+    font-style: italic;
+    padding-left: 2em;
+  }
+}
 article.node-resource .row.taxonomy {
   margin-bottom: .7em;
 }
@@ -7843,4 +7854,10 @@ article.node-resource .row.taxonomy {
 }
 .page-node .node-resource .comment .new {
   display: none;
+}
+.krumo-root {
+  color: black;
+}
+.krumo-root a {
+  color: teal;
 }
