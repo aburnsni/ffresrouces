@@ -2,6 +2,14 @@
   span {
     display: block;
   }
+  .count {
+    display:none;
+  }
+}
+#block-tagclouds-3 {
+  .count {
+    display: inline;
+  }
 }
 
 .field-type-taxonomy-term-reference .btn {
@@ -14,7 +22,7 @@
   }
 }
 
-article.node-resource {
+article.node-resource, article.node-video{
   .row.link {
     margin-bottom: .7em;
     @media only screen and (min-width: 576px) {
@@ -37,7 +45,7 @@ article.node-resource {
   }
 }
 
-.view-frontpage {
+.view-frontpage, .view-taxonomy-term {
   .views-row {
     border-bottom: 1px solid @gray;
     padding-left: 1em;
@@ -76,5 +84,11 @@ article.node-resource {
   color: black;
   a {
     color: teal;
+  }
+}
+
+#field-links-add-more-wrapper {
+  label {
+    font-weight: normal;
   }
 }

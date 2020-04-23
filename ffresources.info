@@ -14,6 +14,7 @@ regions[header]         = 'Top Bar'
 regions[highlighted]    = 'Highlighted'
 regions[help]           = 'Help'
 regions[content]        = 'Content'
+regions[content_bottom] = 'Content Bottom'
 regions[sidebar_first]  = 'Primary'
 regions[sidebar_second] = 'Secondary'
 regions[footer]         = 'Footer'
@@ -27,6 +28,7 @@ regions[page_bottom]    = 'Page bottom'
 
 stylesheets[all][] = css/style.css
 
+scripts[] = 'js/ff.js'
 
 ;;;;;;;;;;;;;;;;;;;;;
 ;; Scripts
