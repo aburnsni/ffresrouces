@@ -12,6 +12,29 @@
   }
 }
 
+#block-taxonomy-menu-block-1 {
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+}
+
+//Front page Class list
+@media only screen and (min-width: 768px) {
+  body.front {
+    #block-taxonomy-menu-block-1 {
+      ul {
+        display: flex;
+        flex-wrap: wrap;
+        li {
+          flex: 1 0 50%;
+          padding-bottom: .5em;
+        }
+      }
+    }
+  }
+}
+
 .field-type-taxonomy-term-reference .btn {
   margin-right: 3px;
   margin-bottom: 2px;
