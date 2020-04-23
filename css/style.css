@@ -7805,6 +7805,7 @@ a.list-group-item-danger.active:focus {
 }
 .field-type-taxonomy-term-reference .btn {
   margin-right: 3px;
+  margin-bottom: 2px;
 }
 .field-type-taxonomy-term-reference .btn .last {
   padding-right: 0;
