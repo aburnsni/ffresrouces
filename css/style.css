@@ -7807,6 +7807,9 @@ a.list-group-item-danger.active:focus {
   list-style: none;
   padding: 0;
 }
+#block-system-navigation ul.nav li a {
+  padding: 10px 15px 10px 0;
+}
 @media only screen and (min-width: 768px) {
   body.front #block-taxonomy-menu-block-1 ul {
     display: flex;
