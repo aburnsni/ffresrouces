@@ -7842,12 +7842,16 @@ article.node-video .row.link {
   }
 }
 article.node-resource .row.body,
-article.node-video .row.body {
+article.node-video .row.body,
+article.node-resource .row.video,
+article.node-video .row.video {
   margin-bottom: .7em;
 }
 @media only screen and (min-width: 576px) {
   article.node-resource .row.body,
-  article.node-video .row.body {
+  article.node-video .row.body,
+  article.node-resource .row.video,
+  article.node-video .row.video {
     font-size: 1.2em;
     margin-bottom: .6em;
     font-style: italic;
