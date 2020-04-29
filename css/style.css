@@ -7794,6 +7794,12 @@ a.list-group-item-danger.active:focus {
 .popover {
   color: #2c3e50;
 }
+.node header {
+  margin-bottom: 10.5px;
+}
+.node header h2 {
+  margin-bottom: 3px;
+}
 .block-tagclouds span {
   display: block;
 }
