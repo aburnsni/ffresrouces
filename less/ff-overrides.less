@@ -8,6 +8,21 @@
   }
 }
 
+// Vimeo video width
+// from https://www.drupal.org/project/video_embed_field/issues/2427341#comment-12233859
+.embedded-video .player {
+  position: relative;
+  padding-top: 56.25%; /* =16/9 */
+}
+.embedded-video .player iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+// Tag cloud fixes
 .block-tagclouds {
   span {
     display: block;
