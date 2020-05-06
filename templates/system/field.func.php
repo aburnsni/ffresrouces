@@ -12,7 +12,7 @@ function ffresources_field__field_subject(&$variables) {
   $output .= '<div class="field-items"' . $variables['content_attributes'] . '>';
   foreach ($variables['items'] as $delta => $item) {
     $classes = 'field-item ' . ($delta % 2 ? 'odd' : 'even') . (!$index ? ' first' : '');
-    $output .= ($index ? '' : '') . '<button class="btn btn-primary btn-xs ' . $classes . '"' . $variables['item_attributes'][$delta] . '>' . drupal_render($item) . '</button>';
+    $output .= ($index ? '' : '') . '<button disabled="disabled" class="btn btn-primary btn-xs ' . $classes . '"' . $variables['item_attributes'][$delta] . '>' . drupal_render($item) . '</button>';
     $index++;
   }
   $output .= '</div>';
