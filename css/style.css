@@ -7794,6 +7794,13 @@ a.list-group-item-danger.active:focus {
 .popover {
   color: #2c3e50;
 }
+@media only screen and (max-width: 479px) {
+  .navbar-header .name {
+    max-width: calc(100vw - 140px);
+    font-size: 1.2em;
+    padding-top: 12px;
+  }
+}
 .node header {
   margin-bottom: 10.5px;
 }
